@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": ".",
+    },
+    {
+      "name": "Rust",
+      "path": "rust"
+    }
+  ],
+  "settings": {
+    "rust-analyzer.linkedProjects": [
+      "./rust/Cargo.toml"
+    ]
+  }
+}
