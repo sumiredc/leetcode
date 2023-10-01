@@ -11,3 +11,7 @@ rstest = "0.18.2"
 [[bin]]
 name = "two_sum"
 path = "src/001/two_sum.rs"
+
+[[bin]]
+name = "palindrome_number"
+path = "src/009/palindrome_number.rs"
