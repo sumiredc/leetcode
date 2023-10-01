@@ -15,3 +15,7 @@ path = "src/001/two_sum.rs"
 [[bin]]
 name = "palindrome_number"
 path = "src/009/palindrome_number.rs"
+
+[[bin]]
+name = "go_project"
+path = "src/exam/go_project.rs"
