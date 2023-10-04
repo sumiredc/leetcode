@@ -21,5 +21,9 @@ name = "roman_to_integer"
 path = "src/013/roman_to_integer.rs"
 
 [[bin]]
+name = "longuest_common_prefix"
+path = "src/014/longest_common_prefix.rs"
+
+[[bin]]
 name = "go_project"
 path = "src/exam/go_project.rs"
