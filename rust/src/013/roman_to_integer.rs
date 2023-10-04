@@ -68,7 +68,7 @@ use rstest::rstest;
 #[case("III", 3)]
 #[case("LVIII", 58)]
 #[case("MCMXCIV", 1994)]
-fn is_palindrome_test(#[case] s: String, #[case] expected: i32) {
+fn roman_to_int_test(#[case] s: String, #[case] expected: i32) {
     let actual = Solution::roman_to_int(s);
     assert_eq!(actual, expected);
 }
