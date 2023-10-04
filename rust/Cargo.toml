@@ -25,5 +25,9 @@ name = "longuest_common_prefix"
 path = "src/014/longest_common_prefix.rs"
 
 [[bin]]
+name = "valid_parentheses"
+path = "src/020/valid_parentheses.rs"
+
+[[bin]]
 name = "go_project"
 path = "src/exam/go_project.rs"
