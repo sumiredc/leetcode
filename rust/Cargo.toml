@@ -29,5 +29,9 @@ name = "valid_parentheses"
 path = "src/020/valid_parentheses.rs"
 
 [[bin]]
+name = "mergew_two_sorted_lists"
+path = "src/021/mergew_two_sorted_lists.rs"
+
+[[bin]]
 name = "go_project"
 path = "src/exam/go_project.rs"
