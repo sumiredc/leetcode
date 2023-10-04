@@ -10,7 +10,7 @@
   ],
   "settings": {
     "rust-analyzer.linkedProjects": [
-      "./rust/Cargo.toml"
+      "./rust/Cargo.toml",
     ],
     "workbench.colorCustomizations": {
       "activityBar.activeBackground": "#efc36a",
@@ -31,6 +31,7 @@
       "titleBar.inactiveBackground": "#eab03c99",
       "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.color": "#EAB03C"
+    "peacock.color": "#EAB03C",
+    "rust-analyzer.showUnlinkedFileNotification": false
   }
 }
