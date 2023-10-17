@@ -9,6 +9,10 @@ edition = "2021"
 rstest = "0.18.2"
 
 [[bin]]
+name = "go_project"
+path = "src/exam/go_project.rs"
+
+[[bin]]
 name = "two_sum"
 path = "src/001/two_sum.rs"
 
@@ -33,5 +37,5 @@ name = "mergew_two_sorted_lists"
 path = "src/021/mergew_two_sorted_lists.rs"
 
 [[bin]]
-name = "go_project"
-path = "src/exam/go_project.rs"
+name = "remove_duplicates_from_sorted_array"
+path = "src/026/remove_duplicates_from_sorted_array.rs"
