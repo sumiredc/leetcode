@@ -29,7 +29,7 @@ impl Solution {
                 total -= symbols.get(before.as_str()).unwrap() * 2;
             }
 
-            before = k.clone();
+            before.clone_from(&k);
         }
 
         total
@@ -48,15 +48,14 @@ fn make_symbols() -> HashMap<&'static str, i32> {
             ("C", 100),
             ("D", 500),
             ("M", 1000),
-        ]
-        .into_iter(),
+        ],
     );
     symbols
 }
 
 fn make_pair_symbols() -> HashSet<&'static str> {
     let mut symbols: HashSet<&str> = HashSet::new();
-    symbols.extend(vec!["IV", "IX", "XL", "XC", "CD", "CM"].into_iter());
+    symbols.extend(vec!["IV", "IX", "XL", "XC", "CD", "CM"]);
     symbols
 }
 

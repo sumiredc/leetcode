@@ -9,19 +9,19 @@
 impl Solution {
     pub fn longest_common_prefix(strs: Vec<String>) -> String {
         let mut prefix = strs[0].to_string();
-        for s in &strs {
-            if prefix.len() == 0 {
+        for s in strs {
+            if prefix.is_empty() {
                 break;
             }
-            let new_prefix = match_prefix(&prefix, s);
+            let new_prefix = match_prefix(prefix.as_str(), s.as_str());
             prefix = new_prefix.to_string();
         }
         prefix
     }
 }
 
-fn match_prefix(p: &String, s: &String) -> String {
-    let mut prefix = p.clone();
+fn match_prefix(p: &str, s: &str) -> String {
+    let mut prefix = p.to_string();
     while !s.starts_with(&prefix) {
         prefix.pop();
     }

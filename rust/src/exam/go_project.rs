@@ -23,7 +23,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         .lock()
         .read_line(&mut input_line)
         .expect("Failed to read line");
-    let values: Vec<&str> = input_line.trim().split_whitespace().collect();
+    let values: Vec<&str> = input_line.split_whitespace().collect();
 
     // 各変数に分配
     let h: usize = values[0].parse().unwrap();
@@ -73,7 +73,7 @@ fn buttle_mao(h: usize, a: usize, b: usize) -> (String, usize) {
     // trun count
     let turn = (h - last_damage) / turn_damage + 1;
 
-    return (WIN.to_string(), turn);
+    (WIN.to_string(), turn)
 }
 
 use rstest::rstest;

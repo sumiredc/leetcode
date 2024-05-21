@@ -15,7 +15,7 @@ impl ListNode {
         let mut head = None;
         for &val in nums.iter().rev() {
             let new_node = ListNode {
-                val: val,
+                val,
                 next: head.take(),
             };
             head = Some(Box::new(new_node));

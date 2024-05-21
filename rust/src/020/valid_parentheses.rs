@@ -33,20 +33,18 @@ impl Solution {
         }
 
         // stack が 空になっているか検証
-        stack.len() == 0
+        stack.is_empty()
     }
 }
 
 fn make_symbols() -> HashMap<String, String> {
     let mut symbols = HashMap::new();
-    symbols.extend(
-        vec![
-            ("}".to_string(), "{".to_string()),
-            ("]".to_string(), "[".to_string()),
-            (")".to_string(), "(".to_string()),
-        ]
-        .into_iter(),
-    );
+    let brackets = vec![
+        ("}".to_string(), "{".to_string()),
+        ("]".to_string(), "[".to_string()),
+        (")".to_string(), "(".to_string()),
+    ];
+    symbols.extend(brackets);
     symbols
 }
 
