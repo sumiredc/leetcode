@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-rstest = "0.18.2"
+rstest = "0.19.0"
 
 [[bin]]
 name = "go_project"
@@ -39,3 +39,7 @@ path = "src/021/mergew_two_sorted_lists.rs"
 [[bin]]
 name = "remove_duplicates_from_sorted_array"
 path = "src/026/remove_duplicates_from_sorted_array.rs"
+
+[[bin]]
+name = "apple_redistribution_into_boxes"
+path = "src/3074/apple_redistribution_into_boxes.rs"
