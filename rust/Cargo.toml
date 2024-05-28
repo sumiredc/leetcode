@@ -13,6 +13,10 @@ name = "go_project"
 path = "src/exam/go_project.rs"
 
 [[bin]]
+name = "sum_of_arithmetic_sequence"
+path = "src/sum_of_arithmetic_sequence/sum_of_arithmetic_sequence.rs"
+
+[[bin]]
 name = "two_sum"
 path = "src/001/two_sum.rs"
 
@@ -39,6 +43,10 @@ path = "src/021/mergew_two_sorted_lists.rs"
 [[bin]]
 name = "remove_duplicates_from_sorted_array"
 path = "src/026/remove_duplicates_from_sorted_array.rs"
+
+[[bin]]
+name = "determine_the_minimum_sum_of_a_k_avoiding_array"
+path = "src/2829/determine_the_minimum_sum_of_a_k_avoiding_array.rs"
 
 [[bin]]
 name = "apple_redistribution_into_boxes"
