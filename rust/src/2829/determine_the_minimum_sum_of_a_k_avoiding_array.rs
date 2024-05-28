@@ -1,8 +1,8 @@
 /// 
 /// @see: https://leetcode.com/problems/determine-the-minimum-sum-of-a-k-avoiding-array/
 /// 
-/// @time_complexity  O(N)
-/// @space_complexity O(N)
+/// @time_complexity  O(1)
+/// @space_complexity O(1)
 /// 
 /// 1. 等差数列の和を算出
 /// 2. 減算する等差数列の和を算出
