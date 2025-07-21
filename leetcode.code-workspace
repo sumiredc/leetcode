@@ -1,7 +1,7 @@
 {
   "folders": [
     {
-      "path": ".",
+      "path": "."
     },
     {
       "name": "Rust",
@@ -9,9 +9,11 @@
     }
   ],
   "settings": {
-    "rust-analyzer.linkedProjects": [
-      "./rust/Cargo.toml",
-    ],
+    "[rust]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "rust-analyzer.linkedProjects": ["./rust/Cargo.toml"],
     "workbench.colorCustomizations": {
       "activityBar.activeBackground": "#efc36a",
       "activityBar.background": "#efc36a",

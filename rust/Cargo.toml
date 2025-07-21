@@ -2,11 +2,16 @@
 name = "rust"
 version = "0.1.0"
 edition = "2021"
+default-run = "default"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-rstest = "0.19.0"
+rstest = "0.21.0"
+
+[[bin]]
+name = "default"
+path = "src/main.rs"
 
 [[bin]]
 name = "go_project"
@@ -19,6 +24,10 @@ path = "src/sum_of_arithmetic_sequence/sum_of_arithmetic_sequence.rs"
 [[bin]]
 name = "two_sum"
 path = "src/001/two_sum.rs"
+
+[[bin]]
+name = "reverse_integer"
+path = "src/007/main.rs"
 
 [[bin]]
 name = "palindrome_number"
@@ -43,6 +52,10 @@ path = "src/021/mergew_two_sorted_lists.rs"
 [[bin]]
 name = "remove_duplicates_from_sorted_array"
 path = "src/026/remove_duplicates_from_sorted_array.rs"
+
+[[bin]]
+name = "optimal_partition_of_string"
+path = "src/2405/optimal_partition_of_string.rs"
 
 [[bin]]
 name = "determine_the_minimum_sum_of_a_k_avoiding_array"
