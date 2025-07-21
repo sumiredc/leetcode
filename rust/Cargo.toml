@@ -30,6 +30,10 @@ name = "reverse_integer"
 path = "src/007/main.rs"
 
 [[bin]]
+name = "atoi"
+path = "src/008/main.rs"
+
+[[bin]]
 name = "palindrome_number"
 path = "src/009/palindrome_number.rs"
 
